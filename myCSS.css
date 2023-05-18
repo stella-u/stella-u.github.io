@@ -1,0 +1,13 @@
+body
+{
+    background-color: #F4D8CD
+}
+#menubox
+{
+    width: 50px;
+    height: 180px;
+    position: absolute;
+    background-color: #EDB183;
+    border-radius: 15px;
+    border-color: #784F41
+}
