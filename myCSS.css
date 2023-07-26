@@ -1,15 +1,1 @@
-body
-{
-    background-color: #F4D8CD
-}
-#menuBox
-{
-    width: 150px;
-    height: 180px;
-    position: absolute;
-    background-color: #EDB183;
-    border-radius: 15px;
-    border-color: #784F41;
-    border-width: 2px;
-    list-style-type: none;
-}
+Removed CSS to begin wireframe
