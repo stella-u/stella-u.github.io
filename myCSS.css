@@ -1,1 +1,168 @@
-Removed CSS to begin wireframe
+body {
+    background-color: #afd1e9;
+  }
+  svg {
+    background-color: #dfedf6;
+  }
+  
+  #edaBar {
+    margin: 20px;
+  }
+  
+  #nameBox {
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    opacity: 80%;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  circle.Musical {
+    fill: #863088;
+  }
+  circle.Play {
+    fill: #f85a3e;
+  }
+  circle.Special {
+    fill: #004ba8;
+  }
+  rect {
+    fill: #509dce;
+  }
+  
+  #edaScatter {
+    margin: 20px;
+    margin-bottom: 50px;
+  }
+  
+  #tooltip {
+    width: 315px;
+    height: 160px;
+    position: absolute;
+    background-image: url(tooltip/tool.png);
+  }
+  #bigBanner {
+    float: right;
+    clear: right;
+    width: 400px;
+    height: 300px;
+  }
+  #banner {
+    width: 400px;
+    height: 300px;
+    position: fixed;
+    text-align: center;
+    background-image: url(tooltip/marquee.png);
+  }
+  #theatreName {
+    margin-top: 160px;
+  }
+  
+  #title {
+    width: 275px;
+    height: 20px;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    text-justify: inter-word;
+  }
+  #showName {
+    font: Lucida Console;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 17px;
+    text-align: center;
+  }
+  #words {
+    width: 275px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 70px;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+  }
+  .desc {
+    display: block;
+    padding-top: 5px;
+    text-justify: inter-word;
+    letter-spacing: 2px;
+  }
+  #bigControl {
+    width: 250px;
+    height: 300px;
+    float: right;
+    clear: right;
+    margin-right: 110px;
+  }
+  #controlpannel {
+    width: 250px;
+    height: 300px;
+    border: solid gray 1px;
+    position: fixed;
+    padding-left: 90px;
+    padding-top: 30px;
+    background-color: #bfdaed;
+  }
+  
+  #colorButton {
+    border: 2px solid #368abf;
+    background-color: #dfedf6;
+    width: 120px;
+    height: 20px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    margin: 2px;
+    clear: right;
+  }
+  #resetButton {
+    border: 2px solid #368abf;
+    background-color: #dfedf6;
+    width: 120px;
+    height: 20px;
+    border-radius: 15px;
+    text-align: center;
+    clear: right;
+    margin: 2px;
+    padding: 10px;
+  }
+  #key {
+    width: 120px;
+    height: 200px;
+    float: right;
+    clear: right;
+    border: 1px solid #368abf;
+    margin-right: 100px;
+    background-color: #dfedf6;
+  }
+  .keyText {
+    float: right;
+    padding: 10px;
+  }
+  #colors {
+    float: left;
+    width: 40px;
+    height: 200px;
+  }
+  #musCol {
+    fill: #863088;
+    width: 15px;
+    height: 15px;
+  }
+  #playCol {
+    fill: #f85a3e;
+    width: 15px;
+    height: 15px;
+  }
+  #specialCol {
+    fill: #004ba8;
+    width: 15px;
+    height: 15px;
+  }
+  

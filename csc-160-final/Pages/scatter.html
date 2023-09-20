@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="/myCss.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="tooltip" class="hidden">
+      <span id="showName" class="desc"> </span>
+      <span id="showType" class="desc"> </span>
+      <span id="showPerf" class="desc"> </span>
+      <span id="showMoney" class="desc"> </span>
+    </div>
+    <div id="colorButton">
+      <span> Color Code Data </span>
+    </div>
+    <div id="key" class="hidden">
+      <svg id="colors">
+        <rect x="10px" y="27px" id="musCol" />
+        <rect x="10px" y="97px" id="playCol" />
+        <rect x="10px" y="167px" id="specialCol" />
+      </svg>
+      <p class="keyText">Musicals</p>
+      <p class="keyText">Plays</p>
+      <p class="keyText">Special</p>
+    </div>
+
+    <svg id="edaScatter" height="500px" width="400px"></svg>
+    <script type="module" src="/Js/scatterplot.js"></script>
+  </body>
+</html>
