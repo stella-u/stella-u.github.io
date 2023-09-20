@@ -2,7 +2,7 @@
   "name": "starter",
   "version": "1.0.0",
   "description": "Starter html, css, and js with links",
-  "main": "index.html",
+  "main": "../project1.html",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
