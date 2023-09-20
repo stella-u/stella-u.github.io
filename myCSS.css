@@ -1,8 +1,8 @@
 body {
-    background-color: #afd1e9;
+    background-color: #D5C7A3;
   }
   svg {
-    background-color: #dfedf6;
+    background-color: #CFCCB4;
   }
   
   #edaBar {
@@ -13,7 +13,7 @@ body {
     width: 250px;
     height: 40px;
     position: absolute;
-    background-color: whitesmoke;
+    background-color: #CFCCB4;
     border-radius: 15px;
     opacity: 80%;
   }
@@ -22,16 +22,16 @@ body {
     display: none;
   }
   circle.Musical {
-    fill: #863088;
+    fill: #4758B7;
   }
   circle.Play {
-    fill: #f85a3e;
+    fill: #D25C2B;
   }
   circle.Special {
-    fill: #004ba8;
+    fill: #7C4E8D;
   }
   rect {
-    fill: #509dce;
+    fill: #7C4E8D;
   }
   
   #edaScatter {
@@ -151,17 +151,17 @@ body {
     height: 200px;
   }
   #musCol {
-    fill: #863088;
+    fill: #4758B7;
     width: 15px;
     height: 15px;
   }
   #playCol {
-    fill: #f85a3e;
+    fill: #D25C2B;
     width: 15px;
     height: 15px;
   }
   #specialCol {
-    fill: #004ba8;
+    fill: #7C4E8D;
     width: 15px;
     height: 15px;
   }
