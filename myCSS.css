@@ -4,7 +4,23 @@ body {
   svg {
     background-color: #CFCCB4;
   }
-  
+  /* HEADER FORMATTING */
+  #top_bar{
+    float: top;
+    background-image: url("Images/the_kiss_sample.png");
+    border-radius: 5px 5px;
+    color : #251d13;
+    border: #251d13;
+    border-radius: 1px;
+    margin: 10px;
+  }
+  .sub_title{
+    float: left;
+
+  }
+  h1, h2, h3, h4, h5, h6{
+    font-family:'Times New Roman', Times, serif;
+  }
   #edaBar {
     margin: 20px;
   }
@@ -15,12 +31,21 @@ body {
   #nameBox {
     width: 250px;
     height: 40px;
-    position: absolute;
     background-color: #CFCCB4;
     border-radius: 15px;
     opacity: 80%;
   }
-  
+  img{
+    height: 50%;
+    width: 50%;
+  }
+  #intro_img{
+    margin: auto;
+    width: 50%;
+    border:#251d13;
+    border-radius: 2px;
+  }
+  /* PROJECT 1 FORMATTING */
   .hidden {
     display: none;
   }
