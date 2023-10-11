@@ -1,52 +1,37 @@
-body {
-    background-color: #D5C7A3;
-    font-family:'Times New Roman', Times, serif;
+body{
+  font-family:'Times New Roman', Times, serif;
+}
+#full_page{
+  width: 100%;
+  height: 100%;
+}
+header{
+  width: 100%;
+  height: 20%;
+}
+#top_menu{
+  width: 100%;
+  height: 80%;
+  float: top;
+}
+#title{
+  height: 90%;
+  width: 50%;
+  padding-right: 10px;
+  margin: 2px;
+  border-width: 1px;
+  border-color: black;
+  float: left;
+}
+.sub_title{
+  height: 60%;
+  width: 10%;
+  padding: 2%;
+  border-width: 1px;
+  border-color: black;
+  float: left;
+}
 
-  }
-  /* HEADER FORMATTING */
-  #nav_box{
-    float: top;
-    background-image: url("Images/the_kiss_sample.png");
-    border-radius: 5px 5px;
-    color : #251d13;
-    border: #251d13;
-    width: 70%;
-    height: 10%
-    border-radius: 10px 10px;
-    margin: 1em;
-  }
-  #title{
-    width: 40%;
-    height: 100%;
-  }
-  .sub_title{
-    float: top, left;
-    width: 10%;
-    height: 50%;
-
-  }
-  #contact_box{
-    float: right;
-    width: 20%;
-    height: 10%;
-    margin: 1%;
-    padding: .5%;
-  }
-  .contact_button{
-    background-color:#D5C7A3;
-    border-radius: 10px 10px;
-    width: 25px;
-    height: 25px;
-  }
-  img{
-    height: 50%;
-    width: 50%;
-  }
-  #intro_img{
-    margin: auto;
-    width: 50%;
-    border:#251d13;
-    border-radius: 2px;
-  }
-
-  
+#contact_box{
+  float: top, right;
+}
