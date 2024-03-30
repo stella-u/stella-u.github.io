@@ -1,35 +1,36 @@
-body{
+html{
+  background-color: rgb(147, 147, 147);
   font-family:'Times New Roman', Times, serif;
-}
-#full_page{
-  width: 100%;
-  height: 100%;
+  padding : 2px;
 }
 header{
-  width: 100%;
   height: 100px;
+  background-color: rgb(109, 109, 109);
   border-style: solid;
   border-width: 2px;
   border-color: blue;
+  position: sticky;
+}
+footer{
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  border-color: red;
 }
 #top_menu{
-  width: 100%;
-  height: 70px;
-  float: top;
-  background-color: bisque;
+  float: right;
+  margin: 5px;
 }
 #title{
-  height: 90%;
-  width: 50%;
   border-style: solid;
   border-width: 1px;
   border-color: brown;
+  position: relative;
   float: left;
+  margin: 5px;
 }
 .sub_title{
-  height: 60%;
-  width: 10%;
-  padding: 2%;
+
   border-style: solid;
   border-width: 1px;
   border-color: black;
@@ -38,10 +39,8 @@ header{
 }
 
 #contact_box{
-  height: 20%;
-  width: 30%;
+
   float: right;
   border-style: solid;
-  border-width: 2px;
   border-color: yellow;
 }
